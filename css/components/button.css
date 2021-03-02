@@ -1,0 +1,17 @@
+.button {
+    display: inline-block;
+    background-color: #91DEFF;
+    box-shadow: 5px 5px 0 #000;
+    padding: 18px 20px;
+    margin-right: 0;
+    transition: transform 100ms linear; /* "transition é usado para criar uma animação de crescimento no botão
+                                         e funciona com qualquer propriedade */
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #A179E8;
+    transform: scale(1.05); /* Aumenta o tamanho do elemento */
+}
