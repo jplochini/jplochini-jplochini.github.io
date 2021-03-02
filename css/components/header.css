@@ -1,0 +1,8 @@
+.header{
+    display: flex; /* Pesquisar sobre */
+    justify-content: space-between; /* Pesquisar sobre */
+    background-color: #FF8CA0;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
+}
+

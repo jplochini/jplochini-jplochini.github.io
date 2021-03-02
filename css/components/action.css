@@ -1,0 +1,18 @@
+.action {
+    display: inline-flex; /* Pesquisar pra que serve */
+    align-items: center; /* Pesquisar - Para alinhar os itens com o quadrado */
+    color: #000;
+    font-size: 20px; /* Tamanho da fonte */
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: 500; /* Peso da fonte */ 
+    text-decoration: none; /* Decoração da fonte */ 
+    margin-right: 30px; /* Espaçamento entre os links */
+}
+
+.action::before { /* PseudoElemento a::before */
+    content: " ";
+    background-color: #91DEFF;
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+}

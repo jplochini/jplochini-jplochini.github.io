@@ -8,32 +8,38 @@
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap" rel="stylesheet"> 
 
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/components/header.css">
+        <link rel="stylesheet" href="css/components/logo.css">
         <link rel="stylesheet" href="css/components/title.css">
         <link rel="stylesheet" href="css/components/subtitle.css">
         <link rel="stylesheet" href="css/components/box.css">
+        <link rel="stylesheet" href="css/components/button.css">
+        <link rel="stylesheet" href="css/components/action.css">
         
     </head>
 
     <body>
-        <header> <!-- "Cabeçalho" -->
-            <img src="assets/img/vscode.jpg" alt="Logo do Visual Studio Code">
+        <header class="header"> <!-- "Cabeçalho" -->
+            <img class="logo" src="assets/img/vscode.jpg" alt="Logo do Visual Studio Code">
             
             <nav> <!-- Tag para Navegation, tag utilizada para guardar os links de navegação -->
-                <a href="" lang="en">Skills</a>
-                <a href="">Projetos</a>
-                <a href="">Sobre</a>
-                <a href="">Contatos</a>
-                <a id="button" href="" lang="en">Download CV</a>
+                <a class ="action" href="" lang="en">Skills</a>
+                <a class ="action" href="">Projetos</a>
+                <a class ="action" href="">Sobre</a>
+                <a class ="action" href="">Contatos</a>
+                <a class="button" href="" lang="en">Download CV</a>
             </nav>
         </header>
 
         
-        <div id="box">
-            <h1>João P. Lochini</h1>
-            <h2>Estudante de Estatística</h2>
-            <h2>Aprendendo FrontEnd</h2>
+        <div class="box">
+            <h1 class="title">João P. Lochini</h1>
+            <h2 class="subtitle">Estudante de Estatística</h2>
+            <h2 class="subtitle">Aprendendo FrontEnd</h2>
         </div>
+
+        <a class="button" href="" lang="en">Download CV</a>
+        <a class="button" href="">Contatos</a>
 
     </body>
 </html>

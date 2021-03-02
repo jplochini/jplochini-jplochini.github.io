@@ -1,4 +1,8 @@
 /*Tirar o comportamento padrão do browser*/
+body {
+    font-family: 'Fira Code', monospace;
+}
+
 body, h1 {
     margin: 0;
 }
