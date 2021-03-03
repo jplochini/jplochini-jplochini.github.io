@@ -13,5 +13,5 @@
 
 .button:hover {
     background-color: #A179E8;
-    transform: scale(1.05); /* Aumenta o tamanho do elemento */
+    transform: scale(1.02); /* Aumenta o tamanho do elemento */
 }
